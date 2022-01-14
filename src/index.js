@@ -3,12 +3,12 @@ import ReactDOM from "react-dom";
 import TodoContainer from "./functionBased/components/TodoContainer";
 // import "./classBased/App.css";
 import "./functionBased/App.css";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <TodoContainer />
     </Router>
   </React.StrictMode>,
