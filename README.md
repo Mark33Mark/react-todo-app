@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+![Mark Watson](./assets/banner.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Watsonised's ToDo
 
-## Available Scripts
+## A React ToDo application
 
-In the project directory, you can run:
+### Table of Contents  
+  
+   1. [Project Description](#1-description)
+   2. [Application Features](#2-features)
+   3. [Installation](#3-installation)
+   4. [Usage](#4-usage)
+   5. [Credits](#5-credits)
+   6. [License](#6-license)
+   7. [Repository Status](#7-github-repo-status)
+   8. [Contribute](#8-how-to-contribute)
+   9. [Tests](#9-tests)
+   10. [Checklist](#10-checklist)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Description  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**What is this project?**  
 
-### `npm test`
+* A simple React application to help users manage all of their to-do's.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Other technologies used are IndexedDB, Express, Node-js and CodeMirror.  The application is deployed on [ https://todo.watsonised.com ](https://todo.watsonised.com).  
 
-### `npm run build`
+**Why this project?**  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* I'm learning React and this was a good app to do for a 1st timer.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**What problem does this project solve?**  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* We're all busy these days with so many actions floating around in our heads.  This app seeks to help those that need somewhere to record the different actions they need to attend to.
 
-### `npm run eject`
+**Lessons learnt?**  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Biggest lesson was understanding when node packages change significantly, evolutionary change, and how to implement the new changes when you are accustomed to the earlier generation of the package.  This was the case with treact-router-dom, fortunately the developer's have provided a great walkthrough on their changes, [https://reactrouter.com/docs](https://reactrouter.com/docs/en/v6/upgrading/v5#relative-routes-and-links)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Features  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This is a really simple application - minimalism is always the best.  
 
-## Learn More
+You can add, delete, submit and edit items.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To edit items, simply double click on it. Once you are done, press the enter key to resubmit.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This app will persist your data in the browser local storage. So whether you reload, close your app or reopened it, you still have access to your to-dos items.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 3. Installation
 
-### Analyzing the Bundle Size
+You are welcome to download the source code from [my Github repository](https://github.com/Mark33Mark/react-todo-app)  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Once downloaded, you will need to install the dependencies with the following command in your terminal: 
 
-### Making a Progressive Web App
+```npm install```  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Once downloaded, you will need to run in the command line:  
 
-### Advanced Configuration
+```npm run build```  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This will install the required dependencies for the application to run.  Now to run the application type in the command line:
 
-### Deployment
+```npm start```  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Enjoy.  
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 4. Usage  
+
+The code can be downloaded from [my Github repository](https://github.com/Mark33Mark/react-todo-app) for all assets created for the project.  
+You can modify the code as you need.  
+
+---
+
+### 5. Credits  
+
+Huge gratitude to [ibaslogic](https://ibaslogic.com/react-tutorial-for-beginners/) for providing a great, well set out and easy to follow tutorial.  This application has followed closely the tutorial.  The main caveat is the walkthrough currently refers to an earlier generation (version 5) of react-router-dom package.  This application uses version 6 so it deviates from the tutorial as required to get the application to work.
+
+---
+
+### 6. License  
+
+ The works in this repository are subject to:  
+
+[MIT license](doc/LICENSE.md)
+
+---
+
+### 7. Github repo status  
+
+![GitHub top language](https://img.shields.io/github/languages/top/Mark33Mark/react-todo-app)
+![GitHub language count](https://img.shields.io/github/languages/count/Mark33Mark/react-todo-app)
+![GitHub last commit](https://img.shields.io/github/last-commit/Mark33Mark/react-todo-app)
+![GitHub commits in last month](https://img.shields.io/github/commit-activity/m/Mark33Mark/react-todo-app)
+
+---
+
+### 8. How to Contribute  
+
+ If you would like to contribute, please comply with the Contributor Covenant Code of Conduct:  
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](doc/code_of_conduct.md)
+
+---
+
+### 9. Tests  
+
+* No unit tests have been written for this application, I plan to come back and to do it.  
+
+---
+
+### 10. Checklist  
+
+ All actions not checked are still to be completed:  
+
+[x]  Functional app, hosted on GitHub pages with CNAME to my personal DNS name.
+[x]  Uses React entirely to function.
+[ ]  Unit testing completed.
+
+---
+
+[Back to the top](#watsoniseds-todo)  
