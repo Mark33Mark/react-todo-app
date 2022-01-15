@@ -121,9 +121,9 @@ Huge gratitude to [ibaslogic](https://ibaslogic.com/react-tutorial-for-beginners
 
  All actions not checked are still to be completed:  
 
-[x]  Functional app, hosted on GitHub pages with CNAME to my personal DNS name.
-[x]  Uses React entirely to function.
-[ ]  Unit testing completed.
+[x]  Functional app, hosted on GitHub pages with CNAME to my personal DNS name.  
+[x]  Uses React entirely to function.  
+[ ]  Unit testing completed.  
 
 ---
 
